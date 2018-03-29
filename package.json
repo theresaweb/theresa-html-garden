@@ -1,0 +1,23 @@
+{
+  "name": "theresa-html-garden",
+  "version": "1.0.0",
+  "description": "playing in my html garden",
+  "main": "index.js",
+  "dependencies": {
+    "foundation-sites": "^6.4.4-rc1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theresaweb/theresa-html-garden.git"
+  },
+  "author": "Theresa Newman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theresaweb/theresa-html-garden/issues"
+  },
+  "homepage": "https://github.com/theresaweb/theresa-html-garden#readme"
+}

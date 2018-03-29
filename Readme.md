@@ -4,3 +4,7 @@
 * toggle FE frameworks
 * style guide
 * deep learning about browsers
+
+
+## dev
+* npm install
