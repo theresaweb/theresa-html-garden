@@ -2,13 +2,19 @@
   "name": "theresa-html-garden",
   "version": "1.0.0",
   "description": "playing in my html garden",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "dependencies": {
     "foundation-sites": "^6.4.4-rc1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.2.1",
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp",
+    "build": "gulp sass"
   },
   "repository": {
     "type": "git",

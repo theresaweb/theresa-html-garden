@@ -55,3 +55,12 @@ data.json
 npm-debug.log
 foundation-docs
 ./vendor
+
+# Ignore application css files
+app/css/*
+
+# Ignore application js files
+app/js/*
+
+# Ignore built files
+dist/**/*
