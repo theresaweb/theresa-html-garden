@@ -4,17 +4,23 @@
   "description": "playing in my html garden",
   "main": "gulpfile.js",
   "dependencies": {
-    "foundation-sites": "^6.4.4-rc1"
+    "foundation-sites": "^6.4.4-rc1",
+    "jquery": "^3.3.1",
+    "save-dev": "^2.0.0"
   },
   "devDependencies": {
+    "compass-sass-mixins": "^0.12.7",
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
     "gulp-clean-css": "^3.9.3",
     "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^4.0.0",
     "gulp-sass": "^3.2.1",
+    "gulp-uglify": "^3.0.0"
   },
   "scripts": {
     "start": "gulp",
-    "build": "gulp sass"
+    "build": "gulp"
   },
   "repository": {
     "type": "git",

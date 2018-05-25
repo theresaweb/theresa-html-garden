@@ -1,3 +1,15 @@
-div {
-background-color: green !important;
+.menu {
+	.active {
+		background: url(dustypink-flower.svg);
+		background-size: 100%;
+		background-position-y:0%;
+		background-color:unset;
+		> a {
+			background-color:unset;
+			}
+	}
+	a {
+		color:#666;
+		background-color:oldlace;
+	}
 }
