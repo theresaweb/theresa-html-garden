@@ -1,6 +1,7 @@
 # My own website
 
 ## todo
+* fix security vulnerability with hapijs / hoek
 * jshint
 * mocha or chai?
 * gulp watch
