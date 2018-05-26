@@ -1,7 +1,8 @@
-# Play around with html and css
+# My own website
 
 ## todo
 * jshint
+* mocha or chai?
 * gulp watch
 * more svg flowers
 * node server
