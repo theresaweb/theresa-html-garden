@@ -25,17 +25,26 @@ gulp.task('styles', function () {
     var foundationCss = gulp.src('./node_modules/foundation-sites/assets/foundation.scss')
         .pipe(sass({
             includePaths: ['./node_modules/foundation-sites/scss'],
-            errLogToConsole: true
+			errLogToConsole: false,
+			onError: function(err) {
+				return notify().write(err);
+			}
         }))
         .pipe(gulp.dest('app/css/'));
     var appCss = gulp.src('./app/scss/app.scss')
         .pipe(sass({
-            errLogToConsole: true
+			errLogToConsole: false,
+			onError: function(err) {
+				return notify().write(err);
+			}
         }))
         .pipe(gulp.dest('./app/css/'));	
 	/*var flowersCss = gulp.src('./app/scss/flowers.scss')
 		.pipe(sass({
-			errLogToConsole: true
+			errLogToConsole: false,
+			onError: function(err) {
+				return notify().write(err);
+			}
 		}))
 		.pipe(gulp.dest('./app/css/'));*/
     return gulp.src(['./app/css/foundation.css','./app/css/app.css'])

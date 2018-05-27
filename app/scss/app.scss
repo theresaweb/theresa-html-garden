@@ -1,15 +1,39 @@
+@function randomNum($min, $max) {
+  $rand: random();
+  $randomNum: $min + floor($rand * (($max - $min) + 1));
+
+  @return $randomNum;
+}
+
+@mixin menuBgFlowerPosition() {
+	$flowers: 'lightblue-flower.svg', 'dustypink-flower.svg', 'green-flower.svg','gold-flower.svg', 'violet-flower.svg', 'red-flower.svg';
+	$thisFlower: 'lightblue-flower.svg';
+	@for $i from 1 to 15 {
+		@if $i <= length($flowers){
+			$thisFlower: nth($flowers, $i);
+		}
+		li:nth-child(#{$i}) {
+			background: url($thisFlower);
+			background-position-y: $i * 12 + %;
+			background-size: randomNum(5,15) * 10 + %;
+			background-color:oldlace;
+	  }
+	}
+}
 .menu {
+	@include menuBgFlowerPosition();
+	li {
+			
+		}
 	.active {
-		background: url(dustypink-flower.svg);
-		background-size: 100%;
-		background-position-y:0%;
-		background-color:unset;
+		background-color:burlywood !important;
+		color:burlywood !important;
 		> a {
 			background-color:unset;
 			}
 	}
 	a {
 		color:#666;
-		background-color:oldlace;
+		background-color:unset !important;
 	}
 }
