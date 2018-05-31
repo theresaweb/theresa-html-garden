@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "compass-sass-mixins": "^0.12.7",
+    "express": "^4.16.3",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-clean-css": "^3.9.3",
@@ -19,7 +20,7 @@
     "gulp-uglify": "^3.0.0"
   },
   "scripts": {
-    "start": "gulp",
+    "start": "node app.js",
     "build": "gulp"
   },
   "repository": {

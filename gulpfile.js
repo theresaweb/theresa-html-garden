@@ -62,7 +62,7 @@ gulp.task('js', function () {
 });
 //minify HTML files
 gulp.task('pages', function() {
-  return gulp.src(['./*.html'])
+  return gulp.src(['./views/*.html'])
     .pipe(htmlmin({
       collapseWhitespace: true,
       removeComments: true
