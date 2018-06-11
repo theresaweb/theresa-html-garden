@@ -1,0 +1,93 @@
+.menu li:nth-child(1) {
+  background: url("lightblue-flower.svg");
+  background-position-y: 12%;
+  background-size: 50%;
+  background-color: oldlace; }
+
+.menu li:nth-child(2) {
+  background: url("dustypink-flower.svg");
+  background-position-y: 24%;
+  background-size: 100%;
+  background-color: oldlace; }
+
+.menu li:nth-child(3) {
+  background: url("green-flower.svg");
+  background-position-y: 36%;
+  background-size: 70%;
+  background-color: oldlace; }
+
+.menu li:nth-child(4) {
+  background: url("gold-flower.svg");
+  background-position-y: 48%;
+  background-size: 120%;
+  background-color: oldlace; }
+
+.menu li:nth-child(5) {
+  background: url("violet-flower.svg");
+  background-position-y: 60%;
+  background-size: 50%;
+  background-color: oldlace; }
+
+.menu li:nth-child(6) {
+  background: url("red-flower.svg");
+  background-position-y: 72%;
+  background-size: 80%;
+  background-color: oldlace; }
+
+.menu li:nth-child(7) {
+  background: url("red-flower.svg");
+  background-position-y: 84%;
+  background-size: 60%;
+  background-color: oldlace; }
+
+.menu li:nth-child(8) {
+  background: url("red-flower.svg");
+  background-position-y: 96%;
+  background-size: 120%;
+  background-color: oldlace; }
+
+.menu li:nth-child(9) {
+  background: url("red-flower.svg");
+  background-position-y: 108%;
+  background-size: 70%;
+  background-color: oldlace; }
+
+.menu li:nth-child(10) {
+  background: url("red-flower.svg");
+  background-position-y: 120%;
+  background-size: 120%;
+  background-color: oldlace; }
+
+.menu li:nth-child(11) {
+  background: url("red-flower.svg");
+  background-position-y: 132%;
+  background-size: 70%;
+  background-color: oldlace; }
+
+.menu li:nth-child(12) {
+  background: url("red-flower.svg");
+  background-position-y: 144%;
+  background-size: 140%;
+  background-color: oldlace; }
+
+.menu li:nth-child(13) {
+  background: url("red-flower.svg");
+  background-position-y: 156%;
+  background-size: 70%;
+  background-color: oldlace; }
+
+.menu li:nth-child(14) {
+  background: url("red-flower.svg");
+  background-position-y: 168%;
+  background-size: 110%;
+  background-color: oldlace; }
+
+.menu .active {
+  background-color: burlywood !important;
+  color: burlywood !important; }
+  .menu .active > a {
+    background-color: unset; }
+
+.menu a {
+  color: #666;
+  background-color: unset !important; }
